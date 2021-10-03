@@ -95,8 +95,8 @@ namespace rigid2d
     {
         double x;
         double y;
-        double norm_x;
-        double norm_y;
+        double norm_x;// x/||v||_2
+        double norm_y;// y/||v||_2
 
         // \brief constructor for Vector2D with no inputs, creates a zero vector
         Vector2D();
